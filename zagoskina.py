@@ -1,5 +1,6 @@
 import streamlit as st
 def var5():
+    st.subheader('Вывести Pclass, Name, Age спасенных с именами начинающихся на введенный текст')
     if "visibility" not in st.session_state:
         st.session_state.visibility = "visible"
         st.session_state.disabled = False
