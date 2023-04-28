@@ -3,8 +3,7 @@ def var5():
     if "visibility" not in st.session_state:
         st.session_state.visibility = "visible"
         st.session_state.disabled = False
-    text_input = st.text_input(
-        "Enter the beginning of the name ")
+    text_input = st.text_input("Введите начало имени")
 
     lstName = []
     lstPlclass = []
