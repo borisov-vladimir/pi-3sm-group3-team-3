@@ -1,5 +1,5 @@
 import streamlit as st
-def var5:
+def var5():
     if "visibility" not in st.session_state:
         st.session_state.visibility = "visible"
         st.session_state.disabled = False
