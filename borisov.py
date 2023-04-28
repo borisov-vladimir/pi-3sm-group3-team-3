@@ -1,6 +1,7 @@
 import streamlit as st
 
 def var6():
+    st.text('Вывести Name, Sex, Age спасенных пассажиров указанного класса и пола')
     pclass = st.selectbox("Укажите класс билета", ['1','2','3'])
     sex = st.radio("Укажите пол", ['М','Ж'])
     if sex == 'М':
