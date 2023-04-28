@@ -8,11 +8,11 @@ import zayceva
 st.title('HomeWork 10')
 st.subheader('группа 3 см, команда 3')
 
-vladimir = "Борисов Владимир- вариант 6."
-marina = "Загоскина Марина- вариант 5."
-olga = 'Козлова Ольга- вариант 7'
-alex = 'Ивушкин Александр- вариант 4'
-natalya = 'Зайцева Наталия - вариант 2'
+vladimir = "Борисов Владимир"
+marina = "Загоскина Марина"
+olga = 'Козлова Ольга'
+alex = 'Ивушкин Александр'
+natalya = 'Зайцева Наталия'
 
 var = [vladimir, marina, olga, alex, natalya]
 
