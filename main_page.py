@@ -2,6 +2,7 @@ import streamlit as st
 import Zagoskina
 import borisov
 
+
 st.title('Проект "Титаник"')
 
 vladimir = "Борисов - вариант 6."
