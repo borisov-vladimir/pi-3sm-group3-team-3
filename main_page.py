@@ -13,7 +13,7 @@ olga = 'Козлова Ольга- вариант 7'
 alex = 'Ивушкин Александр- вариант 4'
 natalya = 'Зайцева Наталия - вариант 2'
 
-var = [vladimir, marina, olga, alex]
+var = [vladimir, marina, olga, alex, natalya]
 
 var = st.radio("Выберите вариант", var)
 
