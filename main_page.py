@@ -3,7 +3,7 @@ import Zagoskina
 import borisov
 import kozlova
 
-st.title('Проект "Титаник"')
+st.title('HomeWork 10')
 
 vladimir = "Борисов - вариант 6."
 marina = "Загоскина - вариант 5."
