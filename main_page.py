@@ -3,6 +3,7 @@ import Zagoskina
 import borisov
 import kozlova
 import ivushkin
+import zayceva
 
 st.title('HomeWork 10')
 
@@ -10,19 +11,19 @@ vladimir = "Борисов Владимир- вариант 6."
 marina = "Загоскина Марина- вариант 5."
 olga = 'Козлова Ольга- вариант 7'
 alex = 'Ивушкин Александр- вариант 4'
-natalya 'Зайцева Наталия - вариант 2'
+natalya = 'Зайцева Наталия - вариант 2'
 
-members_list = [vladimir, marina, olga, alex]
+var = [vladimir, marina, olga, alex]
 
-member = st.radio("Выберите, чью задачу хотите рассмотреть", members_list)
+var = st.radio("Выберите вариант", members_list)
 
-if member == vladimir:
+if var == vladimir:
     borisov.var6()
-elif member == marina:
+elif var == marina:
     Zagoskina.var5()
-elif member == olga:
+elif var == olga:
     kozlova.var7()
-elif member == alex:
+elif var == alex:
     ivushkin.var4()
-elif member == natalya:
-    ivushkin.var4()
+elif var == natalya:
+    zayceva.var4()
