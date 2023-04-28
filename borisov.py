@@ -19,3 +19,4 @@ def var6():
                 name = lst[3] + lst[4]
                 x.append({"Имя": name[1:-1], "Пол": lst[5], "Возраст": lst[6]})
     st.dataframe(x)
+
