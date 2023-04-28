@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 def var7():
-    st.header('Вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен/нет')
+    st.subheader('Вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен/нет')
 
     df = pd.read_csv('data.csv', delimiter=',')
     df_nullcost = df[(df['Fare'] == 0)]
