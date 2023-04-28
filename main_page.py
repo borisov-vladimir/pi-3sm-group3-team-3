@@ -6,6 +6,7 @@ import ivushkin
 import zayceva
 
 st.title('HomeWork 10')
+st.subheader('группа 3 см, команда 3')
 
 vladimir = "Борисов Владимир- вариант 6."
 marina = "Загоскина Марина- вариант 5."
