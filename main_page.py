@@ -6,11 +6,11 @@ import ivushkin
 
 st.title('HomeWork 10')
 
-vladimir = "Борисов - вариант 6."
-marina = "Загоскина - вариант 5."
-olga = 'Козлова - вариант 7'
-alex = 'Ивушкин - вариант 4'
-
+vladimir = "Борисов Владимир- вариант 6."
+marina = "Загоскина Марина- вариант 5."
+olga = 'Козлова Ольга- вариант 7'
+alex = 'Ивушкин Александр- вариант 4'
+natalya 'Зайцева Наталия - вариант 2'
 
 members_list = [vladimir, marina, olga, alex]
 
@@ -23,4 +23,6 @@ elif member == marina:
 elif member == olga:
     kozlova.var7()
 elif member == alex:
+    ivushkin.var4()
+elif member == natalya:
     ivushkin.var4()
