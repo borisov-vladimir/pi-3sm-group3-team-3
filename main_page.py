@@ -26,4 +26,4 @@ elif var == olga:
 elif var == alex:
     ivushkin.var4()
 elif var == natalya:
-    zayceva.var4()
+    zayceva.var2()
