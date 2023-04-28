@@ -1,8 +1,6 @@
 import streamlit as st
 
 def var6():
-    st.markdown('Владимир Борисов, группа 2022-ФГиИБ-ПИ-3см')
-    st.subheader('задание 9, вариант 6')
     pclass = st.selectbox("Укажите класс билета", ['1','2','3'])
     sex = st.radio("Укажите пол", ['М','Ж'])
     if sex == 'М':
