@@ -17,4 +17,4 @@ def var6():
             if lst[1] == "1" and lst[2] == pclass and lst[5] == sex:
                 i = i + 1
                 name = lst[3] + lst[4]
-                st.table({'данные пассажира ' + str(i): {"Имя": name[1:-1], "Пол": lst[5], "Возраст": lst[6]}})
+                st.dataframe({'данные пассажира ' + str(i): {"Имя": name[1:-1], "Пол": lst[5], "Возраст": lst[6]}})
