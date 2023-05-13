@@ -16,7 +16,7 @@ natalya = 'Зайцева Наталия'
 
 var = [vladimir, marina, olga, alex, natalya]
 
-var = st.radio("Выберите вариант", var)
+var = st.radio("Выберите вариант:", var)
 
 if var == vladimir:
     borisov.var6()
