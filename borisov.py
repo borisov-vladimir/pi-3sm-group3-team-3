@@ -9,7 +9,7 @@ def var6_list(data, pclass, sex):
     return result
 
 def var6():
-    st.subheader('Вариант 6: вывести Name, Sex, Age спасенных пассажиров указанного класса и пола.')
+    st.subheader('Вариант 6: вывести Name, Sex, Age спасенных пассажиров указанного класса и пола:')
     pclass = st.selectbox("Укажите класс билета", ['1', '2', '3'])
     sex = st.radio("Укажите пол", ['М', 'Ж'])
     if sex == 'М':
