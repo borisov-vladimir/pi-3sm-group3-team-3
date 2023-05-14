@@ -6,7 +6,7 @@ def get_result(data_file, starts_with_text):
             lst = line.split(',')
             name = lst[3] + lst[4]
             if (lst[1] == '1' and name[1:-1].startswith(text_input)): # имя совпадает и он спасён
-                out_list.append({"Возраст": lst[6], "Имя": name, "Класс": lst[2]})
+                out_list.append({"Класс": lst[2], "Имя": name, "Возраст": lst[6]})
         return out_list
 
 
