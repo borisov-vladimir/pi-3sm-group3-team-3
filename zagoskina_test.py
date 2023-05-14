@@ -1,4 +1,4 @@
-from zagoskina_change_def.py import get_result
+from zagoskina.py import get_result
 
 def test_get_list_passangers_where_name_starts_with_text_survived_is_false_and_true():
     data = ['"1,1,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S"', '7,0,1,"McCarthy, Mr. Timothy J",male,54,0,0,17463,51.8625,E46,S' ]

@@ -1,5 +1,5 @@
 import streamlit as st
-import zagoskina_change_def
+import zagoskina
 import borisov
 import kozlova
 import ivushkin
@@ -25,7 +25,7 @@ if var == vladimir:
     borisov.var6(data)
 elif var == marina:
     st.subheader('Вариант 5: вывести Pclass, Name, Age спасенных с именами начинающихся на введенный текст')
-    zagoskina_change_def.variant5(data)
+    zagoskina.var5(data)
 elif var == olga:
     kozlova.var7()
 elif var == alex:
