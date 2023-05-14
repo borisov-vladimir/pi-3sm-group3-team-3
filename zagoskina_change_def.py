@@ -7,7 +7,7 @@ def get_result(data_file, starts_with_text):
             name = lst[3] + lst[4]
             if (lst[1] == '1' and name[1:-1].startswith(text_input)): # имя совпадает и он спасён
                 out_list.append({"Возраст": lst[6], "Имя": name, "Класс": lst[2]})
-        return (out_list)
+        return out_list
 
 
 def variant5(data):
