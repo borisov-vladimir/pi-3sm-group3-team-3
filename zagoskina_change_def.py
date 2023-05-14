@@ -13,5 +13,3 @@ def get_result(data_file, starts_with_text):
 def variant5(data):
     starts_with_text = st.text_input("Введите начало имени: ")
     st.dataframe(get_result(data, starts_with_text))
-
-variant5()
