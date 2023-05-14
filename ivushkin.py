@@ -6,4 +6,3 @@ def var4(data):
     fare = st.slider('Выберите минимальное значение цены билета:', min_value=0, max_value=200)
     passengers = data.loc[data['Fare'] > fare, ['Name', 'Fare']]
     st.write(passengers)
-var4()
