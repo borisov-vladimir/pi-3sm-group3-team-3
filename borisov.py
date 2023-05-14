@@ -8,7 +8,7 @@ def var6_list(data, pclass, sex):
             result.append({"Имя": name[1:-1], "Пол": lst[5], "Возраст": lst[6]})
     return result
 
-def var6():
+def var6(data):
     st.subheader('Вариант 6: вывести Name, Sex, Age спасенных пассажиров указанного класса и пола:')
     pclass = st.selectbox("Укажите класс билета", ['1', '2', '3'])
     sex = st.radio("Укажите пол", ['М', 'Ж'])
@@ -16,5 +16,4 @@ def var6():
         sex = 'male'
     else:
         sex = 'female'
-    with open("data.csv") as file:
-        st.dataframe(var6_list(file, pclass, sex))
+    st.dataframe(var6_list(data, pclass, sex))
