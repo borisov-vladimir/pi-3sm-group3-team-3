@@ -24,7 +24,6 @@ with open("data.csv") as file:
 if var == vladimir:
     borisov.var6(data)
 elif var == marina:
-    st.subheader('Вариант 5: вывести Pclass, Name, Age спасенных с именами начинающихся на введенный текст')
     zagoskina.var5(data)
 elif var == olga:
     kozlova.var7()

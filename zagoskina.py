@@ -11,5 +11,6 @@ def get_result(data_file, starts_with_text):
 
 
 def var5(data):
+    st.subheader('Вариант 5: вывести Pclass, Name, Age спасенных с именами начинающихся на введенный текст')
     starts_with_text = st.text_input("Введите начало имени: ")
     st.dataframe(get_result(data, starts_with_text))
