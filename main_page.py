@@ -6,7 +6,7 @@ import kozlova
 import ivushkin
 import zayceva
 
-st.title('HomeWork 10')
+#st.title('HomeWork 10')
 st.subheader('группа 3 см, команда 3')
 
 vladimir = "Борисов Владимир"
