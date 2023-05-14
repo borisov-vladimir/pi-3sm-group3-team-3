@@ -1,5 +1,5 @@
 import streamlit as st
-import zagoskina
+import zagoskina_change_def
 import borisov
 import kozlova
 import ivushkin
@@ -21,7 +21,7 @@ var = st.radio("Выберите вариант:", var)
 if var == vladimir:
     borisov.var6()
 elif var == marina:
-    zagoskina.var5()
+    zagoskina_change_def.variant5()
 elif var == olga:
     kozlova.var7()
 elif var == alex:
