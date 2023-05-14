@@ -25,7 +25,7 @@ if var == vladimir:
     borisov.var6(data)
 elif var == marina:
     st.subheader('Вариант 5: вывести Pclass, Name, Age спасенных с именами начинающихся на введенный текст')
-    zagoskina_change_def.variant5()
+    zagoskina_change_def.variant5(data)
 elif var == olga:
     kozlova.var7()
 elif var == alex:

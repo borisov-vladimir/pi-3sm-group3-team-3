@@ -10,9 +10,7 @@ def get_result(data_file, starts_with_text):
         return (out_list)
 
 
-def variant5():
-    with open('data.csv') as data_file:
-        data = data_file.readlines()
+def variant5(data):
     starts_with_text = st.text_input("Введите начало имени: ")
     st.dataframe(get_result(data, starts_with_text))
 
