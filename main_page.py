@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import zagoskina
 import borisov
 import kozlova
@@ -20,6 +21,7 @@ var = st.radio("Выберите вариант:", var)
 
 with open("data.csv") as file:
     data = file.readlines()
+    df = pd.read_csv('data.csv', delimiter=',')
 
 if var == vladimir:
     borisov.var6(data)
