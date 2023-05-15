@@ -16,7 +16,7 @@ natalya = 'Зайцева Наталия'
 
 var = [vladimir, marina, olga, alex, natalya]
 
-var = st.radio("Выберите вариант: ", var)
+var = st.radio("Выберите вариант : ", var)
 
 with open("data.csv") as file:
     data = file.readlines()
