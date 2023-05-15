@@ -31,4 +31,4 @@ elif var == olga:
 elif var == alex:
     ivushkin.var4(df)
 elif var == natalya:
-    zayceva.var2()
+    zayceva.var2(data)
