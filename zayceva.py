@@ -12,7 +12,7 @@ def get_pass_list(data, Survived, sex):
 def var2(data):
     st.subheader('Вариант 2: Вывести имя, возраст, класс билета пассажиров, выбрав пол и спасен или нет')
     Survived = st.radio('Укажите пассажир спасен:', ['Да', 'Нет'])
-    sex = st.radio("Укажите пол", ['М', 'Ж'])
+    sex = st.radio("Укажите пол", ['ММ', 'Ж'])
     if sex == 'М':
         sex = 'male'
     else:
