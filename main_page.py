@@ -5,6 +5,7 @@ import borisov
 import kozlova
 import ivushkin
 import zayceva
+#import tst
 
 #st.title('HomeWork 10')
 st.subheader('группа 3 см, команда 3')
