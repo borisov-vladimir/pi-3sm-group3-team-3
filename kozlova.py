@@ -11,7 +11,7 @@ def var7_list(df, choice):
 #        result = df_nullcost[(df_nullcost['Survived'] == 0)]
     return result
 def var7(df):
-    st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен или нет')
+    st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен or нет')
     choice = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
     if choice == 'Спасен':
         choice = 1
