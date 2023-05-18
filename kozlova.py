@@ -1,5 +1,6 @@
 import streamlit as st
 def var7_list(df, Survived):
+    result = []
     df_nullcost = df[(df['Fare'] == '0')]
     if Survived == 'Спасен':
         result = df_nullcost[(df_nullcost['Survived'] == '1')]
