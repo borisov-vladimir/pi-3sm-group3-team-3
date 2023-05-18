@@ -2,13 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-def var7(df1):
-    st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен / нет')
-
-    df_nullcost = df1[(df1['Fare'] == 0)]
-
-    choice = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
+def var7_list(df, choice):
+    df_nullcost = df[(df['Fare'] == 0)]
     if choice == 'Спасен':
-        st.dataframe(df_nullcost[(df_nullcost['Survived'] == 1)])
+        result = df_nullcost[(df_nullcost['Survived'] == 1)]
     else:
-        st.dataframe(df_nullcost[(df_nullcost['Survived'] == 0)])
+        result = df_nullcost[(df_nullcost['Survived'] == 0)]
+    return result
+def var7(df):
+    st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен / нет')
+    choice = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
+    st.dataframe(var7_list(df, choice))
