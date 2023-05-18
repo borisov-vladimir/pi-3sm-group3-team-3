@@ -7,6 +7,6 @@ def var7_list(df, Survived):
         result = df_nullcost[(df_nullcost['Survived'] == '0')]
     return result
 def var7(df):
-    st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен или нет')
+    st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен / нет')
     Survived = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
     st.dataframe(var7_list(df, Survived))
