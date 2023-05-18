@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 def var7_list(df, choice):
-    df_nullcost = df[(df['Fare'] == '0')]
+    df_nullcost = df[(df['Fare'] == 0)]
     result = df_nullcost[(df_nullcost['Survived'] == choice)]
     return result
 def var7(df):
