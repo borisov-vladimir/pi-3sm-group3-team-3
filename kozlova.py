@@ -2,10 +2,10 @@
 import streamlit as st
 import pandas as pd
 
-def var7(df):
+def var7(df1):
     st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен или нет')
 
-    df_nullcost = df[(df['Fare'] == 0)]
+    df_nullcost = df1[(df1['Fare'] == 0)]
 
     choice = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
     if choice == 'Спасен':
