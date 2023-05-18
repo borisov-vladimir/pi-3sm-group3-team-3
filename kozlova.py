@@ -4,7 +4,7 @@ import pandas as pd
 
 def var7_list(df, choice):
     df_nullcost = df[(df['Fare'] == 0)]
-    if choice == 'Спасен':
+    if choice == 1:
         result = df_nullcost[(df_nullcost['Survived'] == 1)]
     else:
         result = df_nullcost[(df_nullcost['Survived'] == 0)]
@@ -12,4 +12,8 @@ def var7_list(df, choice):
 def var7(df):
     st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен / нет')
     choice = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
+    if choice == 'Спасен':
+        choice = 1
+    else:
+        choice = 0
     st.dataframe(var7_list(df, choice))
