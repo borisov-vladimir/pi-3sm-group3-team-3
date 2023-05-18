@@ -10,7 +10,7 @@ def var7(df):
     st.subheader('Вариант 7: вывести данные пассажиров с билетом нулевой стоимости, выбрав спасен или нет')
     choice = st.radio('Вас интересует список:', ['Спасен', 'Не спасен'])
     if choice == 'Спасен':
-        choice = 1
+        choice = '1'
     else:
-        choice = 0
+        choice = '0'
     st.dataframe(var7_list(df, choice))
